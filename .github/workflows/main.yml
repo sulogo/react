@@ -1,9 +1,6 @@
 name: Desplegar Vite App a GitHub Pages
 on:
-  push:
-    branches:
-      - main
-  workflow_dispatch: # Permite ejecuciones manuales
+   workflow_dispatch: # Este evento permite ejecutar el flujo de trabajo manualmente
 jobs:
   deploy:
     runs-on: ubuntu-latest
